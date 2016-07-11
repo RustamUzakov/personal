@@ -1,0 +1,368 @@
+html, body { margin: 0; padding: 0; width: 100%; height: 100%;}
+		header {
+			position: fixed;
+            top: 0;
+			width: 100%;
+			height: 80px;
+			z-index: 1000;
+		/*	background: rgb(232, 232, 232);*/
+background: linear-gradient(108deg, #e6e6e6, #a8a8a8);
+
+background-size: 1000% 1000%;
+
+			-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+		}
+		nav {
+			width: 960px;
+			height: 80px;
+			margin: 0 auto;
+
+		}
+		nav ul {
+			margin: 20px 0 0;
+
+	 	}
+		nav ul li {
+			display: inline-block;
+			margin: 0 30px 0 0;
+
+		}
+ 
+		a { color: #4D4D4D;  font-family: sans-serif; text-transform: uppercase; text-decoration: none; line-height: 42px; }
+		.active { 
+			color: white; 
+			/*background: rgba(183, 255, 201, 0.4); */
+			padding: 15px;
+			border-radius: 5px;
+background: linear-gradient(224deg, #f5676c, #67eaff, #f7f45d);
+
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+		}
+ 
+		.content { width: 100%; height: 100%; }
+		.content > section { width: 100%; height: 100%; }
+ 
+	
+
+		h1{
+			font-family: Agency FB;
+			font-size: 40px;
+			color: rgba(0, 0, 0, 0.67);
+		}
+
+
+.icons{
+	
+	width: 100%;
+}
+
+.iG{
+	width: 10%;
+}
+
+
+
+.skillComp{
+	width: 38%;
+
+}
+
+.iC{
+	width: 10%;
+	text-align: right;
+	
+}
+
+
+#imgIcon{
+	width: 40%;
+}
+
+.perc{
+	width: 38%;
+
+
+}
+
+.percDiv{
+	
+	
+	
+	height: 30;
+	border-radius: 20px;
+	border-color:;
+	box-shadow: 8px 10px 10px #888888;
+
+background: linear-gradient(270deg, #ff3737, #f2e860, #50ff3e, #3efdff, #ff3ef8);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.ps{
+	width: 80%;
+}
+.ai{
+	width:85%;
+}
+.max{
+	width: 65%;
+}
+.cad{
+	width: 90%;
+}
+.inDes{
+	width: 80%;
+}
+
+.lumion{
+	width: 95%;
+}
+.revit{
+	width: 100%;
+}
+.rhino{
+	width: 80%;
+}
+.zBrush{
+	width: 55%;
+}
+
+.msoffice{
+	width: 90%;
+}
+
+
+
+#portImage{
+	width: 48%;
+	
+	
+}
+#portImage img{
+	width: 100%;
+	padding-top: 16%;
+}
+
+#textAbout{
+	width: 50%;
+	
+	height: 90%;
+}
+
+#portImage, #textAbout{
+	float: left;
+}
+
+#archAbout,#compAbout{
+	border:solid 3px rgba(0, 0, 0, 0.17);
+	float: left;
+	width: 46%;
+	margin: 5px;
+	height: 4%;
+	text-align: center;
+	border-radius: 8px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 5%;
+}
+
+#archAbout{
+	background: rgba(172, 123, 187, 0.65);
+}
+#compAbout{
+	background: rgba(249, 216, 183, 0.65);
+	}
+
+#archAbout:hover{
+	background: rgba(172, 123, 187, 0.95);
+	color: white;
+	cursor: pointer;
+}
+#compAbout:hover{
+	background: rgba(249, 216, 183, 0.95);
+	color: white;
+	cursor: pointer;
+}
+#textArch{
+
+padding-top: 2%;
+font-family: Agency FB;
+font-size: 22px;
+padding-left: 2%;
+
+
+}
+
+#skillsImg img{
+	width: 90%;
+	margin-left: 10%;
+}
+#textComp{
+
+top: 2%;
+font-family: Agency FB;
+font-size: 28px;
+padding-left: 2%;
+
+position: relative;
+ line-height: 160%;
+
+}
+
+#inputFn , #inputEmail , .inputMess{
+	height: 30px;
+
+	margin:10px;
+	font-size: 16px;
+	font-family: Agency FB;
+
+}
+#inputEmail{
+	margin-left: 8%;
+
+}
+
+#contact{
+	font-family: Agency FB;
+	font-size: 28px;
+}
+
+#contactForm{
+	margin-left: 10%;
+	background: rgba(186, 186, 186, 0.4);
+	border-radius: 10px;
+	width: 40%;
+	margin-top: 5%;
+	height: 50%;
+
+}
+
+#t{
+	margin-left: 20px;
+}
+.inputMess{
+	
+	
+	margin-left: 4.1%;
+	font-size: 20px;
+	width: 59.3%;
+	max-width: 80%;
+	font-family: Agency FB;
+	max-height: 40%;
+	height: 25%;
+
+}
+
+#submitBtn{
+	margin-top: 23%;
+	margin-left: 90%;
+	font-family: Agency FB;
+	height: 40px;
+	width: 65px;
+	font-size: 18px;
+
+}
+
+
+.footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:40px;
+	text-align: center;
+	background: rgba(0,0,0,.4);
+	color: white;
+	
+}
+
+.footer h3{
+margin-bottom: 10px;
+	}
+	#contactForm, #contactLinks ul li li{
+		list-style: none;
+		float: left;
+	}
+	 #contactLinks ul li a{
+	 	width: 50%;
+	 	border: solid 1px gray;
+	 	margin-top: 30%;
+	 	margin-left: 10%;	 
+	 	text-align: center;
+	 	border-radius: 10px;
+	 	background: rgba(63, 191, 191, 0.6);
+	 	padding: 10px;
+
+	 }
+
+	 #contactLinks a:hover{
+			background: rgb(63, 191, 191);		 
+	 }
+
+	  #contArch{
+	  	width: 5%;
+	  }
+
+	  #contactLinks img{
+	  	margin-left: 10%;	
+	  	margin-top: 2%;
+	  }
+#contactLinks{
+	list-style: none;
+	}

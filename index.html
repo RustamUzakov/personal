@@ -1,0 +1,254 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/conn.js"></script>
+	<script src="js/animations.js"></script>
+	<!-- <script src="js/jQuery.scrollSpeed.js"></script> -->
+	<link rel="stylesheet" href="css/custom.css"/>
+	<link rel="stylesheet" href="css/animations.css">
+
+
+<script>
+		$(document).ready(function(){
+			console.log("JS IS HERE!");
+			$('a[href^="#"]').on('click',function(e){
+				e.preventDefault();
+
+				var target=this.hash;
+				var $target=$(target);
+
+				$('html,body').animate({
+					'scrollTop':$target.offset().top},2000,'swing');
+			
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+</header>
+
+
+<div class="content">
+		<section id="home">			
+			<div style ="text-align:center;padding:150px 0;">
+				<h1 id="homeh1">Designed by</h1>
+				<object>
+					<embed src ="graphic.svg" width="75%" height="75%;">
+				</object>
+			</div>
+
+		</section>
+
+		<div style="width: 100%; height: 20px; border-bottom: 1px solid #4F4F4F; text-align: center">
+				  <span style="font-size: 40px; background-color: white; padding:1px; font-family: Agency FB;;">
+				    ABOUT ME    	
+				  </span>
+		</div>
+
+		<section id="about">
+
+			<div id="portImage">
+					<img src="images/port.png">
+			</div>
+
+			<div id="textAbout">
+			<div id="archAbout">ARCHITECTURE</div><div id="compAbout">COMPUTER</div>
+		 	<span id="textArch" style="display:none;">
+				<p>
+				My name is Rustam Uzakov. I have finished Architecture
+				School in Belarus and was transferred in New
+				York City College of Technology. My major is Architecture
+				Technology.
+				</p>
+				<p>I am a dynamic and ambitious architect with some
+				Summer Internships experience. During my years at
+				NYCCT and last Internships, I have taken many skills
+				with software and responsibilities. I obtained experience
+				and organization as well as teamwork. I was able
+				to meet deadlines be completing projects in a timely
+				manner, self-discipline, confidence and intelegance.
+				Although, I have ability working efficiently under pressure.
+				</p>
+				<p>
+				My computer skills include extensive training and
+				experience in any Architecture Software. I`m knowledgeable
+				in AutoCAD, Revit, Rhino3D, 3D`s Max,
+				Adobe Photoshop, Illustrator, CorelDraw, Microsoft
+				Office, ZBrush, InDesign. In addition, I study Computer
+				Science in free time and trying to combine Architecture
+				and Web Design together. I`ve created my own
+				Website  <a href ="http://archrust.comli.com/" target="_blank" style="color:rgb(172, 123, 187);"> archrust.comli.com</a>  with my Drawings and
+				School Projects. My studies have taught me that only
+				self-motivation and self-control can bring a success
+				in your work. Greater details of my skills and experience
+				can be found on my resume.</p>
+				<p>Thank you for your time and cooperation. I look
+				forward to speaking with you. You may contact me at
+				(646) 2396399 or <span style ="color:rgb(172, 123, 187);"> <a href="mailto:rustm.uzakov@gmail.com" target="_top"> rust.uzakov@gmail.com</a></span></p>					
+			</span> 
+
+
+			<span id="textComp" style="display:none;">
+				<p>
+				
+				Interest in the Computer Science appeared not so long ago, but it caught my attention very quickly . The study began of <span style ="color:rgb(172, 123, 187);">JAVA</span> , later was taking courses of <span style ="color:rgb(172, 123, 187);"> FULL STACK WEB DEVELOPMENT </span>where I gained general skills of WEB DESIGN and working with DB and PHP . In the free time, I continue to learn JAVA and want to get further education in Computer Science.	
+				</p>
+
+						
+			</span> 
+				</div>	
+		
+
+
+
+
+
+
+		</section>
+
+		<div style="width: 100%; height: 20px; border-bottom: 1px solid #4F4F4F; text-align: center">
+				  <span style="font-size: 40px; background-color: white; padding:1px; font-family: Agency FB;; ">
+				    SKILLS   	
+				  </span>
+		</div>
+
+
+		<section id="skills" >
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+			<table class="icons ">
+				<tr>
+					<td class="iG"><img src="images/ps.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv ps slideDown" id="ps"></div></td>
+					<td class="skillComp" rowspan="10">
+
+
+							<div id="skillsImg">
+									<img src="images/graph.png" id="graph" style="display:none;">
+							</div>
+
+
+
+
+
+
+
+										 
+
+					</td>
+					<td class="iC pulse" id="iconPict"><img src="images/computer/java.png" id="imgIcon"></td>
+				</tr>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/Ai.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv ai"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/html.png" id="imgIcon"></td>
+				</tr>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/3dmax.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv max"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/css.png" id="imgIcon"></td>
+				</tr>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/autoCad.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv cad"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/js.png" id="imgIcon"></td>
+				</tr>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/inDesing.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv inDes"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/jquery.png" id="imgIcon"></td>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/lumion.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv lumion"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/php.png" id="imgIcon"></td>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/revit.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv revit"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/sql.png" id="imgIcon"></td>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/rhino.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv rhino"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/mysql.png" id="imgIcon"></td>
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/zBrush.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv zBrush"></div></td>
+				
+					<td class="iC pulse" id="iconPict"><img src="images/computer/GitHub.png" id="imgIcon"></td>	
+<!--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+				<tr>
+					<td class="iG"><img src="images/msoffice.png" id="imgIcon"></td>
+					<td class="perc"> <div class="percDiv msoffice"></div></td>
+				
+					<td class="iC  pulse" id="iconPict"><img src="images/computer/gitbash.png" id="imgIcon"></td>														
+
+
+
+			</table>
+		</section>
+
+
+
+<div style="width: 100%; height: 20px; border-bottom: 1px solid #4F4F4F; text-align: center">
+				  <span style="font-size: 40px; background-color: white; padding:1px; font-family: Agency FB;;">
+				    CONTACT   	
+				  </span>
+		</div>
+
+
+		<section id="contact">
+
+<div  id="contactForm" >
+
+
+	<form action ="processMessage.php" method = "POST"  id="donForm">
+		<div id="t">First Name: <input type="text" size="50" name="inputFn" id="inputFn" placeholder="Your Name"></div>
+		<div id="t">Email: <input type="text" size="50" name="inputEmail" id="inputEmail" placeholder="Your Email"></div>
+		<div id="t">Message:
+		<textarea rows="4" cols="50" name="inputMess"  placeholder="Enter text here..." class="inputMess"></textarea></div>
+<input type="submit" id="submitBtn" name="submitBtn" value="SUBMIT"/>
+		</form>	
+</div>
+
+
+<div class="row footer">
+	
+		<h3>Copyright &copy:2016</h3>
+	
+</div>
+</body>
+</html>
